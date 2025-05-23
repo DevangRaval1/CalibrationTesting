@@ -39,7 +39,7 @@
                 np.savetxt(pose_path, T, fmt="%.6f")
         
                 self.txt_log.appendPlainText(
-                    f"📸 Saved {img_path} and {pose_path}"
+                    f"Saved {img_path} and {pose_path}"
                 )
 
 Where self.robot.get_pose() calls this function:
